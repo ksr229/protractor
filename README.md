@@ -7,5 +7,10 @@
 
 Intellisense: 
 -Re-Installing the Javascript Language support. 
--Install the protractor globallu npm install -g protractor
+-Install the protractor globally npm install -g protractor
 -Update the Webdriver manager webdriver-manager update
+
+npm init -y : will create a new package.json with default values inside it.
+npm install protractor --save-dev : This will add protractor with @devDependancy instead of just @dependancy. ----Checkout How that helps.
+npm install jasmine-reporters --save-dev
+npm install jasmine-spec-reporter --save-dev

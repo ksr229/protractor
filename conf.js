@@ -1,4 +1,34 @@
 exports.config = {
-    seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['04_first_protractor_test.js']
+  framework: 'jasmine',
+  capabilities: {
+    browserName: 'chrome'
+  },
+  jasmineNdeOpts: {
+    print: function() { },
+    showTiming: true,
+    showColor: true,
+    isVerbose: true,
+    includeStackTrace: true,
+    defaultTimeoutInterval: 600000
+
+  },
+
+  directConnect: true,
+
+  onPrepare: function(){
+    var specReporter = require('jasmine-spec-reporter').SpecReporter;
+    jasmine.getEnv().addReporter(
+      new specReporter({
+        colors: {
+          enabled: true
+        },
+        spec: {
+          displayStackTrace: true,
+          displayDuration: true
+        }
+      })
+    );
+  },
+  //seleniumAddress: 'http://localhost:4444/wd/hub',
+  specs: ['06_dropDowns.js']
   };
