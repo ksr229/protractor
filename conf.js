@@ -30,5 +30,5 @@ exports.config = {
     );
   },
   //seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['06_dropDowns.js']
+  specs: ['07_calc_project.js']
   };

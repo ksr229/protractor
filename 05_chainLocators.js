@@ -1,7 +1,8 @@
 /*
-locator tyep: repeaters: 
+locator type: by.repeater: 
 Helps capture the proprety type ng-repeat which can contain multiple td tags within 
 it which could then be accessed using the chain locators.
+get text using getText() function.
 
 concept of chain locators
 using css to identify the identical tags for chaining.
