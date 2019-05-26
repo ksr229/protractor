@@ -30,5 +30,5 @@ exports.config = {
     );
   },
   //seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['08_window_handles.js']
+  specs: ['10_explicit_wait.js']
   };
