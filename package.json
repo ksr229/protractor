@@ -6,7 +6,8 @@
   "scripts": {
     "test": "protractor conf.js",
     "webdriver:update": "webdriver-manager update",
-    "webdriver:clean": "webdriver-manager clean" 
+    "webdriver:clean": "webdriver-manager clean",
+    "ts": "tsc"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "jasmine-reporters": "^2.3.2",
     "jasmine-spec-reporter": "^4.2.1",
-    "protractor": "^5.4.2"
+    "protractor": "^5.4.2",
+    "typescript": "^3.4.5"
   }
 }

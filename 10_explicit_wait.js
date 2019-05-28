@@ -22,7 +22,6 @@ describe("Testing Expected Waits using Expected Conditions", function () {
                 console.log(text);
             });
         });
-
-
     });
+
 });
