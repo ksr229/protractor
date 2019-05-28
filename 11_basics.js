@@ -28,5 +28,6 @@ var d;
 d = true;
 console.log(d);
 var e;
+//e = ["string",2,3]; will not allow any string as its defined as a variable of type Array<string>
 e = [1, 2, 3];
 console.log(e);
