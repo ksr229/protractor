@@ -3,7 +3,7 @@
  * use import keyword to import the class using below syntax.
  * import {classname} from 'relative path of the file' 
  */
-import { classDemo } from './12_classes_typescript'
+import { classDemo } from './12_classes_typescript'         //This is how we can import a class
 
 console.log("***********Calling from Another file************************")
 let classObj = new classDemo(123);

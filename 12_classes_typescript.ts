@@ -7,19 +7,19 @@
  * these can be inherited.
  */
 
-export class classDemo {
+export class classDemo {                //export is the keyword we need to use so that the class can be imported.
     //Properties inside a class
     username: string;
     password: string;
     ssn: number;
 
-    constructor(ssn: number) { //Constructor method is the first to be executed inside the class when an object of the class is created. And need not be called EXPLICITLY
+    constructor(ssn: number) {          //Constructor method is the first to be executed inside the class when an object of the class is created. And need not be called EXPLICITLY
         this.ssn = ssn;
         console.log("I am the constructor");
     }
-    //Methods inside a class.
+                                        //Methods inside a class.
     getUserName() {
-        return this.username;    //this will identify the current instance member of property username
+        return this.username;           //this will identify the current instance member of property username
 
     }
 

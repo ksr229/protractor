@@ -7,8 +7,9 @@
  * types
  */
 
+// With the use of let the FOR loop will print the numbers in an order as we expect it to, where as without it only 5 will be printed.
 for (let i = 0; i < 5; i++) {
-    setTimeout(function () {
+    setTimeout( function() {
         console.log(i)
     }, 100 * i);
 }
