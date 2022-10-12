@@ -22,7 +22,7 @@
   "homepage": "https://github.com/ksr229/protractor#readme",
   "dependencies": {},
   "devDependencies": {
-    "jasmine-reporters": "^2.3.2",
+    "jasmine-reporters": "^2.5.0",
     "jasmine-spec-reporter": "^4.2.1",
     "protractor": "^5.4.2",
     "typescript": "^3.4.5"
